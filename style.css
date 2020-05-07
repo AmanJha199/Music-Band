@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background-image: linear-gradient( 123.5deg,  rgba(244,219,251,1) 29.3%, rgba(255,214,214,1) 67.1% );
+}
+header h1{
+    margin: 50px 0px 40px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+header p{
+    font-size: 20px;
+}
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.boxes{
+    
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+   
+}
+.boxes > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    
+    
+}
+  .box1 {
+    background: #60d394;
+  }
+  .box2 {
+    background: #d36060;
+  }
+  .box3 {
+    background: #c060d3;
+  }
+  .box4 {
+    background: #d3d160;
+  }
+  .box5 {
+    background: #606bd3;
+  }
+  .box6 {
+    background: #60c2d3;
+  }
+
+  @keyframes jump{
+      0%{
+        bottom: 0%;
+        left: 15%;
+      }
+      50%{
+          bottom:50%;
+          left:50%;
+      }
+      100%{
+        bottom: 0%;
+        left: 75%;
+
+    }
+  }
+
+  .Visual >div{
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      bottom: 0%;
+      left: 15%;
+      z-index: -1;
+
+}
+  
+
